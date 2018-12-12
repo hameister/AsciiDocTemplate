@@ -1,0 +1,10 @@
+// tag::contains[]
+curl -u elastic:changeme -X PUT "localhost:9200/item/external/1" -H 'Content-Type: application/json' -d'
+{
+"id": null,
+"description": "Bügeleisen",
+"location": "Regal A2",
+"itemdate": "2018-12-12",
+}
+'
+  // end::contains[]

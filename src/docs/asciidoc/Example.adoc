@@ -1,0 +1,26 @@
+# Überschrift
+
+# Überschrift 2
+
+- Item 1
+- Item 2
+- Item 3
+
+
+
+# Überschrift 3
+- Beispiel mit Quellcode
+
+[source,Java]
+.Item Dto
+----
+include::../../../src/java/Item.java[tags=contains,indent=0]
+----
+
+Beispiel mit cURL und Json:
+
+[source,cURL]
+.Item Dto
+----
+include::../../../src/curls/import1.txt[tags=contains,indent=0]
+----
